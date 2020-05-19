@@ -1,14 +1,14 @@
 # clj-git
 
-A Clojure library designed to ... well, that part is up to you.
-
-## Usage
-
-FIXME
+A toy server created for a tutorial/workshop on git. It generates a simplified
+JSON representation of a git repository, which it serves over a WebSocket as
+changes occur. Used in conjunction with a modified version of (Learn Git
+Branching)[https://github.com/pcottle/learnGitBranching], powers a live-updating
+view of the current structure of the repo.
 
 ## License
 
-Copyright © 2020 FIXME
+Copyright © 2020 Brian Sanders
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
